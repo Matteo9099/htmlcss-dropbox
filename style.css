@@ -10,12 +10,11 @@
 header .row{
     height: 80px;
     line-height: 80px;
-    background-color: green;
 }
 
 header #logo{
     float: left;
-    margin-right: 15px;
+    padding: 0 15px;
 }
 
 header #logo img{
@@ -30,6 +29,7 @@ header .nav-menu{
 header .nav-menu ul{
     text-align: center;
     font-size: 22px;
+    padding: 0 15px;
 }
 
 header .nav-menu ul li{
@@ -43,6 +43,9 @@ header .nav-menu ul li a{
     font-family: 'Open Sans', sans-serif;
 }
 
+header .nav-menu.right{
+    float: right;
+}
 
 header .jumbotron{
     height: 500px;
