@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* header */
@@ -40,7 +40,6 @@ header .nav-menu ul li a{
     color: rgb(4, 14, 59);
     text-decoration: none;
     padding: 0 20px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 header .nav-menu.right{
@@ -48,15 +47,24 @@ header .nav-menu.right{
 }
 
 header .jumbotron{
-    height: 500px;
-    background-color: red;
+    height: 1000px;
+    background-color: #a5cfff;
 }
 
 .jumbotron #title{
     width: 90%;
+    padding-top: 100px;
     margin: auto;
-    height: 100px;
-    background-color: yellow;
+}
+
+.jumbotron #title h1{
+    font-size: 110px;
+}
+
+.jumbotron #title .sottotitle{
+    width: 50%;
+    margin-top: 50px;
+    font-size: 30px;
 }
 
 /* header */
