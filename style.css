@@ -125,7 +125,7 @@ section .title-section span{
 
 section .blocco .content-sx{
     margin-top: 30px;
-    height: 500px;
+    padding-bottom: 300px;
     width: 30%;
     float: left;
     background-color: skyblue;
@@ -139,7 +139,7 @@ section .blocco .content-top{
     border-bottom: 1px solid #000;
 }
 
-.far{
+.far, .fas{
     padding-right: 5px;
 }
 
@@ -177,6 +177,27 @@ section .blocco .content-top{
     font-size: 18px;
     margin-top: 40px;
     text-align: left;
+}
+
+.blocco .content-list ul{
+    margin: 50px 20px;
+
+    list-style-type: none;
+}
+
+.blocco .content-list ul li{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.blocco .content-list .list-special{
+    font-weight: bold;
+}
+
+.blocco .content-list ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
 }
 
 
