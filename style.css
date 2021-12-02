@@ -72,7 +72,7 @@ header .jumbotron{
 }
 
 .btn{
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
     font-size: 20px;
     color: #fff;
@@ -116,10 +116,10 @@ section .title-section{
 
 section #input{
     margin-top: 50px;
+    font-size: 25px;
 }
 
 section .title-section span{
-    font-size: 20px;
     padding-right: 20px;
 }
 
@@ -142,6 +142,43 @@ section .blocco .content-top{
 .far{
     padding-right: 5px;
 }
+
+.blocco .content-title{
+    margin: 30px 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blocco .content-title p{
+    padding-top: 20px;
+}
+
+.content-title span{
+    color: gray;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.blocco .content-text{
+    margin: 30px 20px;
+    font-size: 18px;
+}
+
+.blocco .content-text p{
+    padding: 10px 0;
+}
+
+.blocco .content-nav{
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.blocco .content-nav p{
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+}
+
 
 section .blocco .content-center{
     margin-top: 30px;
