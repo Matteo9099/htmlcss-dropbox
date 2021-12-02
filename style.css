@@ -91,7 +91,7 @@ header .jumbotron{
 .container{
     width: 80%;
     margin: auto;
-    border: 4px solid #000;
+    /* border: 4px solid #000; */
 }
 
 .clearfix{
@@ -196,7 +196,6 @@ section .blocco .content-top{
     font-size: 15px;
 }
 
-
 section .blocco .content-center{
     margin: 30px 5%;
     width: 30%;
@@ -206,10 +205,18 @@ section .blocco .content-center{
 }
 
 section .blocco .content-bottom{
-    height: 150px;
+    height: 250px;
     background-color: skyblue;
 }
 
+.blocco .content-text-link{
+    margin: 20px 20px;
+    border: 1px solid red;
+}
+
+.blocco .content-text-link .botton{
+    float: right;
+}
 
 /* sezione due */
 section .block{
