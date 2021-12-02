@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header .row{
+    height: 80px;
+    background-color: green;
+}
+
+header .jumbotron{
+    height: 500px;
+    background-color: red;
+}
+
+.jumbotron #title{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    background-color: yellow;
+}
+/* header */
+
+/* main */
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 4px solid #000;
+}
+
+main .blocco{
+    background-color: blue;
+}
+
+section .title-section{
+    height: 70px;
+    background-color: skyblue;
+}
+
+section .blocco .content-sx{
+    margin-top: 30px;
+    height: 500px;
+    width: 30%;
+    float: left;
+    background-color: skyblue;
+}
+
+section .blocco .content-top{
+    height: 50px;
+    border-bottom: 1px solid #000;
+}
+
+section .blocco .content-center{
+    margin-top: 30px;
+    height: 500px;
+    width: 30%;
+    margin: 30px 5%;
+    float: left;
+    background-color: skyblue;
+}
+
+section .blocco .content-bottom{
+    height: 150px;
+    background-color: skyblue;
+}
+
+
+/* sezione due */
+section .block{
+    height: 400px;
+    margin-top: 20px;
+    background-color:tomato;
+}
+
+section .block .image{
+    width: 45%;
+    height: 400px;
+    float: left;
+    margin-right: 5%;
+    background-color: teal;
+    border: 1px solid yellow;
+}
+
+section .block .text{
+    height: 300px;
+    width: 50%;
+    float: left;
+    border: 1px solid yellow;
+    background-color: teal;
+}
+
+/* sezione due */
+
+
+/* sezione tre */
+.contenitore:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+section .block-box{
+    margin-top: 20px;
+    background-color: blue;
+}
+
+.contenitore{
+    padding: 20px 0;
+}
+
+section .block-box .title{
+    height: 70px;
+    background-color: yellowgreen;
+}
+
+section .block-box .box-lati{
+    width: 30%;
+    height: 250px;
+    background-color: red;
+    border: 1px solid blue;
+    float: left;
+}
+
+section .block-box .box-center{
+    height: 250px;
+    width: 30%;
+    margin: 0 5%;
+    float: left;
+    border: 1px solid blue;
+    background-color: red;
+}
+
+
+/* sezione tre */
+
+
+/* main */
