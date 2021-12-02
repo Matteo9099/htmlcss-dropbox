@@ -5,6 +5,7 @@
 }
 
 /* header */
+
 header .row{
     height: 80px;
     background-color: green;
@@ -21,6 +22,7 @@ header .jumbotron{
     height: 100px;
     background-color: yellow;
 }
+
 /* header */
 
 /* main */
@@ -137,9 +139,46 @@ section .block-box .box-center{
     border: 1px solid blue;
     background-color: red;
 }
-
-
 /* sezione tre */
+
+/* sezione quattro */
+
+section .block-loghi{
+    height: 600px;
+    width: 100%;
+    background-color: burlywood;
+    margin-top: 20px;
+}
+
+section .block-loghi-text{
+    height: 150px;
+    background-color: brown;
+}
+/* sezione quattro */
+
+
+/* sezione cinque */
+section .block-sottologhi{
+    width: 100%;
+    background-color:crimson;
+    margin-top: 20px;
+}
+
+section .sottologhi-text{
+    height: 200px;
+    margin: 250px 0;
+    background-color: cyan;
+}
+
+/* sezione cinque */
+
+/* sezione sei */
+section .question{
+    height: 500px;
+    background-color: darkkhaki;
+}
+/* sezione sei */
+
 
 
 /* main */
