@@ -90,8 +90,8 @@ header .jumbotron{
 /* main */
 .container{
     width: 80%;
-    margin: auto;
-    /* border: 4px solid #000; */
+    margin: 200px auto;
+    border: 4px solid #000;
 }
 
 .clearfix{
@@ -127,7 +127,7 @@ section .blocco .content-top{
     line-height: 50px;
     text-align: center;
     font-size: 20px;
-    border-bottom: 1px solid #000;
+    border: 1px solid gray;
 }
 
 .far, .fas{
@@ -204,44 +204,68 @@ section .blocco .content-center{
     border: 1px solid gray;
 }
 
-section .blocco .content-bottom{
-    height: 250px;
-    background-color: skyblue;
+.blocco .content-bottom{
+    border: 1px solid gray;
 }
 
 .blocco .content-text-link{
-    margin: 20px 20px;
-    border: 1px solid red;
+    margin: 20px 1%;
+    width: 99%;
+    position: relative;
 }
 
 .blocco .content-text-link .botton{
     float: right;
+    position: absolute;
+    top: 0;
+    right: 1%;
+}
+
+.blocco .content-text-link h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.blocco .content-text-link span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blocco .content-text-link p{
+    font-size: 18px;
+    margin: 20px 0;
 }
 
 /* sezione due */
-section .block{
-    height: 400px;
-    margin-top: 20px;
-    background-color:tomato;
-}
-
 section .block .image{
     width: 45%;
-    height: 400px;
     float: left;
     margin-right: 5%;
-    background-color: teal;
-    border: 1px solid yellow;
+}
+
+section .block .image img{
+    max-width: 100%;
+    object-fit: cover;
 }
 
 section .block .text{
     height: 300px;
     width: 50%;
     float: left;
-    border: 1px solid yellow;
-    background-color: teal;
+    margin-top: 50px;
 }
 
+.block .text p{
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.block .btn.white{
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #000;
+}
 /* sezione due */
 
 
@@ -252,35 +276,33 @@ section .block .text{
     clear: both;
 }
 
-section .block-box{
-    margin-top: 20px;
-    background-color: blue;
-}
-
 .contenitore{
-    padding: 20px 0;
-}
-
-section .block-box .title{
-    height: 70px;
-    background-color: yellowgreen;
+    padding: 40px 0;
 }
 
 section .block-box .box-lati{
     width: 30%;
-    height: 250px;
-    background-color: red;
-    border: 1px solid blue;
     float: left;
 }
 
+section .block-box img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.block-box .contenitore h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.block-box .contenitore p{
+    font-size: 18px;
+}
+
 section .block-box .box-center{
-    height: 250px;
     width: 30%;
     margin: 0 5%;
     float: left;
-    border: 1px solid blue;
-    background-color: red;
 }
 /* sezione tre */
 
