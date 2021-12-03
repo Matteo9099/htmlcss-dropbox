@@ -47,27 +47,35 @@ header .nav-menu.right{
 }
 
 header .jumbotron{
-    height: 1000px;
-    background-color: #a5cfff;
+    background-color: #aacdf5;
 }
 
-.jumbotron #title{
+.jumbotron #container{
     width: 90%;
     padding-top: 100px;
     margin: auto;
 }
 
-.jumbotron #title h1{
-    font-size: 110px;
+.jumbotron .title{
+    font-size: 50px;
 }
 
-.jumbotron #title .sottotitle{
-    width: 50%;
+.jumbotron .sottotitle{
     margin-top: 50px;
     font-size: 30px;
 }
 
-.jumbotron #title .nav-title{
+.jumbotron .sottotitle p{
+    width: 40%;
+    float: left;
+}
+
+.jumbotron .sottotitle .jumbotron-image img{
+    width: 60%;
+    float: left;
+}
+
+.jumbotron .title .nav-title{
     margin-top: 50px;   
 }
 
@@ -84,11 +92,10 @@ header .jumbotron{
     padding: 5px 20px;
 }
 
-.jumbotron #title .nav-title p{
+.jumbotron .title .nav-title p{
     font-size: 20px;
     margin-top: 35px;
 }
-
 /* header */
 
 
