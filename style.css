@@ -306,7 +306,12 @@ section .block-box .box-center{
 }
 /* sezione tre */
 
+
 /* sezione quattro */
+.container.sponsor{
+    margin-bottom: 20px;
+    padding: 25px 0;
+}
 
 section .block-loghi{
     height: 600px;
@@ -316,9 +321,49 @@ section .block-loghi{
 }
 
 section .block-loghi-text{
-    height: 150px;
-    background-color: brown;
+    width: 50%;
 }
+
+.block-loghi-text a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 25px;
+    color: blue;
+}
+
+.block-loghi-text h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.block-loghi .block-loghi-item{
+    background-color: red;
+    height: 200px;
+}
+
+.block-loghi-item .col-lateral{
+    width: 30vh;
+    float: left;
+    height: 200px;
+    background-color: blue;
+}
+
+.block-loghi-item .col-center{
+    width: 40vh;
+    float: left;
+    height: 200px;
+    background-color: red;
+}
+
+.block-loghi-item .col-lateral{
+    width: 30vh;
+    float: left;
+    height: 200px;
+    background-color: blue;
+}
+
+
 /* sezione quattro */
 
 
