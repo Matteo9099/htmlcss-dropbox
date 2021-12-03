@@ -249,7 +249,6 @@ section .block .image img{
 }
 
 section .block .text{
-    height: 300px;
     width: 50%;
     float: left;
     margin-top: 50px;
@@ -260,7 +259,7 @@ section .block .text{
     margin: 30px 0;
 }
 
-.block .btn.white{
+.btn.white{
     background-color: #fff;
     color: #000;
     padding: 10px;
@@ -362,23 +361,36 @@ section .block-loghi-text{
     height: 200px;
     background-color: blue;
 }
-
-
 /* sezione quattro */
 
 
 /* sezione cinque */
 section .block-sottologhi{
     width: 100%;
-    background-color:crimson;
     margin-top: 20px;
 }
 
 section .sottologhi-text{
-    height: 200px;
     margin: 250px 0;
-    background-color: cyan;
+    width: 80%;
+    position: relative;
 }
+
+.btn.white.large{
+    padding: 10px 50px;
+}
+
+section .sottologhi-text h2{
+    width: 60%;
+    color: #ab0a11;
+}
+
+section .sottologhi-text a{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 
 /* sezione cinque */
 
