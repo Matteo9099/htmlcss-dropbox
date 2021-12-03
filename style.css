@@ -465,4 +465,18 @@ footer .faq .faq-table{
     text-decoration: none;
 }
 
+.faq .language{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    color: gray;
+    border-top: 1px solid gray;
+}
+
+.faq .language .fas{
+    color: gray;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
 /* footer */
