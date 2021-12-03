@@ -313,7 +313,6 @@ section .block-box .box-center{
 /* sezione quattro */
 .container.sponsor{
     margin-bottom: 20px;
-    padding: 25px 0;
 }
 
 section .block-loghi{
@@ -427,9 +426,43 @@ section .question-item-text{
     font-size: 20px;
     color: #000;
 }
-
 /* sezione sei */
 
-
-
 /* main */
+
+/* footer */
+footer .faq{
+    height: 500px;
+    background-color: black;
+}
+
+footer .faq .faq-table{
+    width: 90%;
+    margin: auto;
+}
+
+.faq .table-item{
+    float: left;
+    display: table-cell;
+    width: 20%;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.faq .table-item h3{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.faq .table-item ul li{
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.faq .table-item ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* footer */
