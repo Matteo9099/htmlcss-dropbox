@@ -65,18 +65,31 @@ header .jumbotron{
     font-size: 30px;
 }
 
-.jumbotron .sottotitle p{
+.jumbotron .sottotitle-text{
     width: 40%;
     float: left;
 }
+.jumbotron .sottotitle-text p{
+    margin-bottom: 40px;
+}
 
-.jumbotron .sottotitle .jumbotron-image img{
+.jumbotron .sottotitle-text #special{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.jumbotron .sottotitle-image{
     width: 60%;
     float: left;
 }
 
-.jumbotron .title .nav-title{
-    margin-top: 50px;   
+.jumbotron .sottotitle-image img{
+    width: 100%;
+}
+
+.fas.fa-arrow-down{
+    color: #000;
+    font-size: 50px;
 }
 
 .btn{
