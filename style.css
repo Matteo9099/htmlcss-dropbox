@@ -6,7 +6,6 @@
 }
 
 /* header */
-
 header .row{
     height: 80px;
     line-height: 80px;
@@ -115,7 +114,7 @@ header .jumbotron{
 /* main */
 .container{
     width: 80%;
-    margin: 150px auto;
+    margin: 100px auto;
 }
 
 .clearfix{
@@ -377,16 +376,32 @@ section .block-loghi-text{
 
 .block-loghi-item .col-center{
     float: left;
-    background-color: chartreuse;
+    background-color: #ece4e4;
     width: calc(100% - 60vw);
     height: 30vh;
     overflow-y: auto;
     margin: 0;
 }
 
+.block-loghi-item .col-center-title{
+    margin: 40px;
+}
+
+.block-loghi-item .col-center-title #special{
+    height: 60px;
+}
+
 .block-loghi-item .col-lateral .item img{
     width: 100%;
     height: 100%;
+    padding: 10%;
+}
+
+.block-loghi-item .col-center-title p{
+    font-size: 20px;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
 
 /* sezione quattro */
 
@@ -394,7 +409,8 @@ section .block-loghi-text{
 /* sezione cinque */
 section .block-sottologhi{
     width: 100%;
-    margin-top: 20px;
+    background-color: #aacdf5;
+    padding: 10px;
 }
 
 section .sottologhi-text{
