@@ -49,9 +49,8 @@ header .jumbotron{
     background-color: #aacdf5;
 }
 
-.jumbotron #container{
+.jumbotron #container-jumbotron{
     width: 90%;
-    padding-top: 100px;
     margin: auto;
 }
 
