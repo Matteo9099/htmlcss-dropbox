@@ -109,11 +109,31 @@ header .jumbotron{
 }
 /* header */
 
+/* hover */
+nav ul li:hover{
+    border-bottom: 4px solid #000;
+}
+
+.question .nascosto{
+    display: none;
+}
+
+.question .question-item-text p:hover {
+    display: none;
+}
+
+.question .nascosto:hover{
+    display: block;
+    border: 5px solid red;
+}
+/* hover */
+
 
 /* main */
 .container{
     width: 80%;
     margin: 100px auto;
+    position: relative;
 }
 
 .clearfix{
