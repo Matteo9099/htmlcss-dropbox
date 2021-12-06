@@ -54,8 +54,8 @@ header .jumbotron{
     margin: auto;
 }
 
-.jumbotron .title{
-    font-size: 50px;
+.jumbotron h1{
+    font-size: 100px;
 }
 
 .jumbotron .sottotitle{
@@ -388,7 +388,34 @@ section .block-loghi-text{
     width: 50%;
     text-align: center;
     line-height: 15vh;
-    background-color: red;
+}
+
+.block-loghi-item .col-lateral .item.green{
+    background-color: lightgreen;
+}
+
+.block-loghi-item .col-lateral .item.fucsia{
+    background-color: rgb(53, 3, 44);
+}
+
+.block-loghi-item .col-lateral .item.lightblue{
+    background-color: rgb(15, 185, 236);
+}
+
+.block-loghi-item .col-lateral .item.red{
+    background-color: rgb(224, 28, 28);
+}
+
+.block-loghi-item .col-lateral .item.cyan{
+    background-color: rgb(160, 217, 231);
+}
+
+.block-loghi-item .col-lateral .item.blue{
+    background-color: rgb(49, 7, 233);
+}
+
+.block-loghi-item .col-lateral .item.yellow{
+    background-color: rgb(248, 233, 16);
 }
 
 .block-loghi-item .col-center{
