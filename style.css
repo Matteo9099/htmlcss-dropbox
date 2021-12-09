@@ -127,8 +127,13 @@ nav ul #special .finestra-invisible{
 }
 
 #special li a{ 
-    color: gray;
+    color: #000;
     border: none;
+}
+
+#special li:hover{ 
+    border: none;
+    background-color: rgb(182, 174, 174);
 }
 
 nav li a:hover{
