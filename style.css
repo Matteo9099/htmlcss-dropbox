@@ -116,9 +116,20 @@ header .jumbotron{
 }
 /* header */
 
+.nav-menu.right .finestra-invisible{
+    display: none;
+    position: absolute;
+    font-size: 14px;
+    background-color: #fff;
+}
+
 /* hover */
 nav li a:hover{
     border-bottom: 4px solid #000;
+}
+
+.nav-menu.right #special:hover .finestra-invisible{
+    display: grid;
 }
 
 .question .nascosto{
