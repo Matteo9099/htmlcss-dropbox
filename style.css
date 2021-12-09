@@ -116,10 +116,11 @@ header .jumbotron{
 }
 /* header */
 
-.nav-menu.right .finestra-invisible{
+nav ul #special .finestra-invisible{
     display: none;
     position: absolute;
     font-size: 14px;
+    text-align: left;
     background-color: #fff;
 }
 
@@ -130,19 +131,6 @@ nav li a:hover{
 
 .nav-menu.right #special:hover .finestra-invisible{
     display: grid;
-}
-
-.question .nascosto{
-    display: none;
-}
-
-.question .question-item-text p:hover {
-    display: none;
-}
-
-.question .nascosto:hover{
-    display: block;
-    border: 5px solid red;
 }
 /* hover */
 
@@ -513,7 +501,7 @@ section .question-item-text{
     margin-bottom: 50px;
 }
 
-.question .question-item-text p{
+.question .question-item-text{
     font-size: 25px;
     font-weight: bold;
 }
@@ -526,6 +514,24 @@ section .question-item-text{
     font-size: 20px;
     color: #000;
 }
+
+/* hover */
+.question-item-text .finestra-invisibile {
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 5px;
+    display: none;
+}
+
+.question-item-text:hover .finestra-invisibile{
+    display: block;
+}
+
+
+/* hover */
+
+
 /* sezione sei */
 
 /* main */
