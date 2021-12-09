@@ -593,4 +593,11 @@ footer .faq .faq-table{
     font-size: 20px;
 }
 
+/* hover */
+footer .table-item a:hover{
+    border-bottom: 1px solid#fff;
+}
+
+/* hover */
+
 /* fine footer */
