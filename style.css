@@ -494,6 +494,9 @@ section .sottologhi-text{
 .btn.white.large{
     padding: 10px 50px;
 }
+.btn.white:hover{
+   background-color: rgb(216, 209, 209);
+}
 
 section .sottologhi-text h2{
     width: 60%;
