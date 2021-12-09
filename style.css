@@ -594,9 +594,8 @@ footer .faq .faq-table{
 }
 
 .faq .language{
-    width: 90%;
-    margin: auto;
-    margin-top: 60px;
+    width: 5%;
+    margin: 100px;
     color: gray;
     border-top: 1px solid gray;
 }
