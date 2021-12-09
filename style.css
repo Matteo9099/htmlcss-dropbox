@@ -223,6 +223,12 @@ section .blocco .content-top{
     padding: 30px 20px;
 }
 
+.blocco .separatore{
+    width: 20%;
+    border-top: 1px solid gray;
+    margin-left: 20px;
+}
+
 .blocco .content-nav p{
     font-size: 18px;
     margin-top: 40px;
