@@ -108,6 +108,7 @@ header .jumbotron{
 .btn.bar{
     color: #fff;
     padding: 5px 20px;
+    border: none;
 }
 
 .jumbotron .title .nav-title p{
