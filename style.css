@@ -116,6 +116,7 @@ header .jumbotron{
 }
 /* header */
 
+/* hover */
 nav ul #special .finestra-invisible{
     display: none;
     position: absolute;
@@ -124,7 +125,11 @@ nav ul #special .finestra-invisible{
     background-color: #fff;
 }
 
-/* hover */
+#special li a{ 
+    color: gray;
+    border: none;
+}
+
 nav li a:hover{
     border-bottom: 4px solid #000;
 }
@@ -515,7 +520,7 @@ section .question-item-text{
     color: #000;
 }
 
-/* hover */
+/* inizio hover */
 .question-item-text .finestra-invisibile {
     font-size: 20px;
     font-weight: 100;
@@ -527,16 +532,13 @@ section .question-item-text{
 .question-item-text:hover .finestra-invisibile{
     display: block;
 }
-
-
-/* hover */
-
+/* fine hover */
 
 /* sezione sei */
 
-/* main */
+/* fine main */
 
-/* footer */
+/* inizio footer */
 footer .faq{
     height: 500px;
     background-color: black;
@@ -585,4 +587,4 @@ footer .faq .faq-table{
     font-size: 20px;
 }
 
-/* footer */
+/* fine footer */
