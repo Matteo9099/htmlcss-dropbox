@@ -47,6 +47,7 @@ header .nav-menu.right{
 
 header .jumbotron{
     background-color: #aacdf5;
+    height: 850px;
 }
 
 .jumbotron #container-jumbotron{
@@ -83,6 +84,7 @@ header .jumbotron{
 
 .jumbotron .sottotitle-image img{
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .fas.fa-arrow-down{
